@@ -13,11 +13,12 @@ body
 {
 	height: 80px;
 	background-color: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
 
 }
 .container
 {
-	width: 940px;
+width: 940px;
 margin: 0 auto;
 }
 
@@ -28,43 +29,31 @@ margin: 0 auto;
 	width: 940px;
 	height: 80px;
 }
-.about_wrapper
+.about_wrapper , .contact_wrapper
 {
-width: 470px;
+width: 50%;
 display: flex;
 
-}
-.contact_wrapper
-{
-width: 470px;
 }
 .about{
 	display: flex;
 	height: 66px;
 	margin: auto 0 ;
 }
-.about__photo
-{
-	
-}
 .mini-photo
 {
-vertical-align: middle;
 border: 1px solid #bebebe;
 border-radius: 50%;
 }
 .about__fio
 {
 margin-left:20px ;
-  font-size: 18px;
-  color: rgb(65, 65, 65);
-  text-align: left;
-  display: flex;
+font-size: 18px;
+color: rgb(65, 65, 65);
+display: flex;
 
 }
 .name
 {
 	margin: auto;
 }
-
-
