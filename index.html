@@ -7,6 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	 <link href="http://allfont.ru/allfont.css?fonts=open-sans-bold" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 <div class="wrapper">
@@ -23,21 +26,24 @@
 			</div>
 			<div class="contact_wrapper">
 			<div class="contact">
-				<a href="index.html#">Контакты</a>
+				<a class=contact_link href="index.html#">Мои Контакты</a>
+
 			</div>
 			</div>
 		</div>
 	</header>
 
 	<!--section-->
-	<section> // Зачем ты обернул в section? Объясни. Больше предраться не к чему. Молодец!)
-		<div class="container">
+	<div class="content" > <!-- // Зачем ты обернул в section? Объясни. Больше предраться не к чему. Молодец!) -->
+		<div class="container flexcontent">
 			<aside class="aside">
 				<nav class="menu">
 					<ul class="menu__list">
-						<li><a href="index.html">Обо мне</a></li>
-						<li><a href="index.html">Карьерный путь</a></li>
-						<li><a href="index.html">Портфолио</a></li>	
+						<li class="menu__list-active ">
+						<a href="index.html">
+						<i class="fa fa-user-secret" aria-hidden="true"></i>Обо мне</a></li>
+						<li class=> <a href="index.html"><i class="fa fa-rocket" aria-hidden="true"></i>Карьерный путь</a></li>
+						<li><a href="index.html"> <i class="fa fa-briefcase" aria-hidden="true"></i>Портфолио</a></li>	
 					</ul>
 				</nav>
 			</aside>
@@ -45,10 +51,11 @@
 				<div class="content_wrapper">
 					<div class="photo_wrapper">
 						<div class="photo_wrapper__photo">
-							<img src="images/logo/logo.jpg" alt="photo">
+							<img class="myphoto" width="220" height="220" src="images/logo/logo.jpg" alt="photo">
 						</div>
 					</div>
 					<div class="aboutme_wrapper">
+					<div class="information">
 						<h1>Обо мне</h1>
 						<div class="paragraphs">
 							<p>Меня зовут Дмитрий Глотов и я - junior frontend разработчик с желанием дальше развиваться в данной области.</p>
@@ -62,26 +69,27 @@
 							<p>Цель: Начать карьеру junior frontend разработчика в веб-студии, где буду полезен и смогу совершенствовать свои навыки в данной сфере.</p>
 						</div>
 							<div class="resume">
-							<a href="resume_hh.pdf">Скачать резюме</a>
+							<a class="resume_link" href="resume_hh.pdf"><i class="fa fa-download"></i>Скачать резюме</a>
+							</div>
 							</div>
 					</div>
 				</div>	
 			</main>
 		</div>
-	</section>
+	</div>
 </div>
 <!-- footer -->
 <footer class="footer">
-	<div class="container">
+	<div class="container footerflex">
 		<div class="footer_info">
-			<div class="footer_info__copyright"><span>&copy; Дизайн сайта был разработан в школе LoftSchool</span></div>
+			<div class="footer_info__copyright"><div class="copy">&copy; Дизайн сайта был разработан в школе LoftSchool</div></div>
 		</div>
 		<div class="footer_links">
 			<div class="footer_links__ul">
-				<ul>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
+				<ul class="ul_list">
+					<a href="facebook.com"><li class="fb" ></li></a>
+					<a href="vk.com"><li class="vk" ></li></a>
+					<a  href="twitter.com"><li class="tw"></li></a>
 				</ul>
 			</div>
 		</div>
