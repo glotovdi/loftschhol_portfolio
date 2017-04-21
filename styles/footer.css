@@ -1,0 +1,80 @@
+
+.footer
+{
+	height: 50px;
+	background-color: #414141;
+}
+.footerflex
+{
+	display: flex;
+	height: 100%;
+}
+.footer_info , .footer_links
+{
+	display: flex;
+	width: 50%;
+	height: 50px;
+}
+.footer_info
+{
+  font-size: 14px;
+  font-family: "Fira Sans";
+  color: rgb(156, 156, 156);
+}
+.footer_links__ul
+{
+	
+	width: 107px;
+	height: 30px;
+	margin: auto;
+	margin-left:  354px;
+	display: flex;
+}
+.ul_list
+{
+	height: 30px;
+}
+
+ul.ul_list li
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding:  0;
+}
+.footer_info__copyright
+{display: flex;
+}
+.copy
+{
+	display: flex;
+	margin: auto;
+}
+.fb
+{
+width: 30px;
+	height: 30px;
+	background-image: url('images/icons/FaceBook.png')
+}
+.vk
+{
+
+	background-image: url('images/icons/vk.png')
+}
+.tw
+{
+
+	background-image: url('images/icons/Twitter.png')
+}
+
+.fb:hover
+{
+
+}
+
+
+
+
+
+
