@@ -28,24 +28,23 @@
 			</div>
 			<div class="contact_wrapper">
 			<div class="contact">
-				<a class=contact_link href="index.html#">Мои Контакты</a>
-
+				<a class=contact_link href="index.html#">Мои Контакты</a>  // <a> используем в том случае, когда это ссылка и она куда-либо ведет; <button> используем в случаях, если это кнопка, которая вызывает какое-то действие, например, вызывает попап, модальное окно и т. д.
 			</div>
 			</div>
 		</div>
 	</header>
 
 	<!--section-->
-	<div class="content" > <!-- // Зачем ты обернул в section? Объясни. Больше предраться не к чему. Молодец!) -->
-		<div class="container flexcontent">
+	<div class="content" >
+		<div class="container flexcontent"> // Зачем тебе класс flexcontent?) Классы с float и clear пошли из бутстрапа, где основной функционал ты собираешь с помощью классов. На самом деле, если ты не используешь бутстрап, тебе кроме твоих БЭМовских классов больше и не нужны никакие.
 			<aside class="aside">
 				<nav class="menu">
 					<ul class="menu__list">
-						<li class="menu__list-active ">
+						<li class="menu__list-active "> // Элементам списка можно дать класс, например, menu__link, а активному элементу добавить модификатов: class="menu__link menu__link--active" (я использую для модификатора --, ты пиши так, как тебе удобно)
 						<a href="index.html">
 						<i class="fa fa-user-secret" aria-hidden="true"></i>Обо мне</a></li>
-						<li class=> <a href="career.html"><i class="fa fa-rocket" aria-hidden="true"></i>Карьерный путь</a></li>
-						<li><a href="index.html"> <i class="fa fa-briefcase" aria-hidden="true"></i>Портфолио</a></li>	
+						<li class=""> <a href="career.html"><i class="fa fa-rocket" aria-hidden="true"></i>Карьерный путь</a></li> // Атрибуты aria порадовали меня)
+						<li><a href="index.html"> <i class="fa fa-briefcase" aria-hidden="true"></i>Портфолио</a></li>
 					</ul>
 				</nav>
 			</aside>
@@ -57,7 +56,7 @@
 						</div>
 					</div>
 					<div class="aboutme_wrapper">
-					<div class="information">
+					<div class="information"> // Можно смело использовать <article>
 						<h1>Обо мне</h1>
 						<div class="paragraphs">
 							<p>Меня зовут Дмитрий Глотов и я - junior frontend разработчик с желанием дальше развиваться в данной области.</p>
@@ -82,13 +81,13 @@
 	<footer class="footer">
 	<div class="container footerflex">
 		<div class="footer_info">
-			<div class="footer_info__copyright"><div class="copy">&copy; Дизайн сайта был разработан в школе LoftSchool</div></div>
+			<div class="footer_info__copyright"><div class="copy">&copy; Дизайн сайта был разработан в школе LoftSchool</div></div> // Следи за стилем кода
 		</div>
 		<div class="footer_links">
 			<div class="footer_links__ul">
 				<ul class="ul_list">
-					<a href="facebook.com"><li class="fb" ></li></a>
-					<a href="http://www.vk.com/glotovdmitry"><li class="vk" ></li></a>
+					<a href="facebook.com"><li class="fb" ></li></a> // Под конец устал от БЭМа?))
+					<a href="http://www.vk.com/glotovdmitry"><li class="vk" ></li></a> 
 					<a  href="twitter.com"><li class="tw"></li></a>
 				</ul>
 			</div>
