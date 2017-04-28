@@ -1,0 +1,22 @@
+body /*Старанный стиль оформления css, почему так?)*/
+{
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0px;
+  background-color: #f6f6f6;
+}
+.container
+{
+  width: 940px;
+  margin: 0 auto;
+}
+.wrapper
+{
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+a:hover , a {
+  color: inherit;
+  text-decoration: inherit;
+}
