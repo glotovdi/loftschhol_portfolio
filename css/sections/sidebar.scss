@@ -1,0 +1,50 @@
+
+.aside
+{
+  width: 220px;
+  display: flex;
+  height: 100%;
+}
+
+.menu__list{
+  font-size: 18px;
+  font-family: "Fira Sans";
+  color: #414141;
+  line-height: 1.333;
+  text-align: right;
+  list-style: none;
+}
+.menu__list:hover
+{
+
+}
+ul
+
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+li
+{
+  padding-right: 25px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  height: 45px;
+  vertical-align: center;
+  box-sizing: border-box;
+}
+li:hover
+{
+  color: #33c1e3;
+}
+.menu__list-active
+{
+  font-weight: bold;
+  border-right: 6px solid #33b9dd;
+  color: #33b9dd;
+}
+.fa
+{
+  padding-right: 10px;
+}
