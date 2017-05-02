@@ -1,5 +1,105 @@
-@media screen and (max-width: 768px){
-  .container{
+@media screen and (max-width: 768px) {
+  .container {
     width: 480px;
   }
+  .contact_link
+  {
+    
+    width: 32px;
+    height: 32px;
+    border:none;
+    background: url("../images/icons/phone.png") 0 0 no-repeat;
+  }
+  .my_cont
+  {
+    display: none;
+  }
+  .paragraphs {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .photo_wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .content_wrapper {
+    display: block;
+  }
+  .main {
+    padding-top: 45px;
+    width: 100%;
+  }
+  .aboutme_wrapper {
+    width: 100%;
+  }
+  .photo_wrapper__photo {
+    width: 185px;
+    margin: auto;
+  }
+  .footer {
+    height: 95px;
+  }
+  .footer_info, .footer_links, .footer_info__copyright, .copy {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+  }
+  .copy {
+    padding-top: 23px;
+  }
+  .footerflex {
+    display: block;
+  }
+  .footer_links__ul {
+    padding: 0;
+    margin: auto;
+  }
+  .footer_links
+  {
+    height: auto;
+  }
+.career,.career__left, .career__right
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+  .career_wrapper
+  {
+    display: block;
+  }
+  .career__pic {
+    margin: auto;
+    width:230px;
+  }
+  .career
+  {
+    padding-top: 45px;
+    margin-bottom: 50px;
+  }
+  .career_header, .portfolio__header, .information__header
+  {
+    text-align:center;
+  }
+  .career__left
+  {
+    padding-bottom: 20px;
+  }
+  .career__year
+  {
+    display: none;
+  }
+  .portfolio {
+    padding-top: 34px;
+    margin-bottom: 50px;
+  }
+.portfolio__header
+{
+  margin-bottom: 23px;
+}
+
 }

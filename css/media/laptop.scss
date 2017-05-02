@@ -3,7 +3,7 @@
     width: 730px;
   }
 
-.aside, 
+.aside
 {
   display:block;
   width:100%;
@@ -46,5 +46,45 @@
   {
 
     height: 100%
+  }
+  .aboutme_wrapper{
+    width:437px;
+  }
+  .footer_links__ul {
+
+    margin-left: 250px;
+  }
+  .stuff{
+    width:100%;
+    margin: 0;
+    padding:0;
+
+  }
+  .career_header {
+    margin-bottom: 34px;
+  }
+  .career__right{
+    padding-left:144px;
+  }
+  .career{
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+  .portfolio
+  {
+    padding-top: 37px;
+    margin-bottom: 50px;
+  }
+  .portfolio__list
+  {
+    margin-left: -20px;
+  }
+  .portfolio__header{
+    margin-bottom: 32px;
+  }
+  .portfolio__item
+  {
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 }

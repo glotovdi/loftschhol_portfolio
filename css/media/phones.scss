@@ -2,4 +2,29 @@
   .container{
     width: 95%;
   }
+  .flexcontent
+  {
+    margin-top: 20px;
+  }
+  .fa
+  {
+    display: none;
+  }
+  .portfolio__list
+  {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .portfolio__item
+  {
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 23px;
+  }
+  .portfolio
+  {
+    width: 100%;
+  }
 }

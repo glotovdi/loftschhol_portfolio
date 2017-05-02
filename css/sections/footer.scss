@@ -56,28 +56,28 @@ ul.ul_list li
 {
 	width: 30px;
 	height: 30px;
-	background-image: url('./images/icons/FaceBook.png');
+	background-image: url('../images/icons/FaceBook.png');
 	&:hover
 	{
-      background-image: url('./images/icons/FaceBook-h.png');
+      background-image: url('../images/icons/FaceBook-h.png');
 	}
 }
 .vk
 {
 
-	background-image: url('./images/icons/vk.png');
+	background-image: url('../images/icons/vk.png');
   &:hover
   {
-    background-image: url('./images/icons/vk-h.png');
+    background-image: url('../images/icons/vk-h.png');
   }
 }
 .tw
 {
 
-	background-image: url('./images/icons/Twitter.png');
+	background-image: url('../images/icons/Twitter.png');
   &:hover
   {
-    background-image: url('./images/icons/Twitter-h.png');
+    background-image: url('../images/icons/Twitter-h.png');
   }
 }
 
