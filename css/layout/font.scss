@@ -4,30 +4,39 @@
 @font-face{
 
   font-family: 'Firasans_bold';
-  src: url('/font/FiraSans-Bold.ttf');
+  src: url('./font/FiraSans-Bold.ttf');
 
 
 }@font-face{
 
   font-family: 'Firasans_light';
 
-  src: url('/font/FiraSans-Light.ttf');
+  src: url('./font/FiraSans-Light.ttf');
 
 
 }@font-face{
 
   font-family: 'FiraSans';
-
-  src: url('/font/FiraSans-Medium.ttf');
+  src: url('../../font/FiraSans-Medium.ttf');
+  src: url('../../font/FiraSans-Medium.woff') format('woff'),
+  url('../../fonts/firasans-medium.svg') format('svg'),
+    url('../../font/firasans-medium.eot') format('eot'),
+    url('../../font/firasans-medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
 
 
 }@font-face{
 
-  font-family: 'FiraSans_regular';
-  src: url('/font/FiraSans-Regular.ttf');
-
+  font-family: 'fira_sansregular';
+  src: url('../fonts/firasans-regular.ttf');
+  src: url('../../font/FiraSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
+
+
 
 
 
