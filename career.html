@@ -2,16 +2,9 @@
 <html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
-	<title>Карьерный путь</title>
+	<title>Карьера</title>
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-	<link rel="stylesheet" href="css/layout/normalize.scss">
-	<link rel="stylesheet" href="css/sections/header.scss">
-	<link rel="stylesheet" href="css/sections/content.scss">
-	<link rel="stylesheet" href="css/sections/footer.scss">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	 <link href="http://allfont.ru/allfont.css?fonts=open-sans-bold" rel="stylesheet" type="text/css" />
-
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 <div class="wrapper">
@@ -28,7 +21,7 @@
 			</div>
 			<div class="contact_wrapper">
 			<div class="contact">
-				<button class=contact_link href="index.html#">Мои Контакты</button>
+				<a class=contact_link href="index.html#">Мои контакты</a>
 
 			</div>
 			</div>
@@ -39,31 +32,66 @@
 	<div class="content" >
 		<div class="container flexcontent">
 			<aside class="aside">
-				<nav class="menu">
-					<ul class="menu__list">
-						<li >
-						<a href="index.html">
-						<i class="fa fa-user-secret" aria-hidden="true"></i>Обо мне</a></li>
-						<li class="menu__list-active "> <a href="index.html"><i class="fa fa-rocket" aria-hidden="true"></i>Карьерный путь</a></li>
-						<li><a href="index.html"> <i class="fa fa-briefcase" aria-hidden="true"></i>Портфолио</a></li>	
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item ">
+							<a href="index.html" class="nav__link">
+								<i class="fa fa-user-secret nav__link-icon"></i>
+								<span class="nav__link-text">Обо мне</span>
+							</a>
+						</li>
+						<li class="nav__item nav__item_active">
+							<a href="career.html" class="nav__link">
+								<i class="fa fa-rocket nav__link-icon"></i>
+								<span class="nav__link-text">Карьерный путь</span>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="portfolio.html" class="nav__link">
+								<i class="fa fa-briefcase nav__link-icon"></i>
+								<span class="nav__link-text">Портфолио</span>
+							</a>
+						</li>
 					</ul>
 				</nav>
 			</aside>
-			<div class="header_content">Карьерный путь</div>
-			<div class="career_content_wrapper">
-				<div class="career_photo"><img src="images/content/work.jpg" alt=""></div>
-				<div class="career_info">
-				<ul>
-				<li>2016-2017
-				РЖД
-				Администратор
-				</li>
+			<main class="stuff">
+				<div class="career">
+					<h1 class="career_header">Карьерный путь</h1>
+					<div class="career_wrapper">
+						<div class="career__left">
+							<div class="career__pic">
+								<img src="./images/content/work.jpg" class="career__pic-img" alt="">
+							</div>
+						</div>
+						<div class="career__right">
+							<ul class="career__list">
+								<li class="career__item">
+									<div class="career__block">
+										<div class="career__title">
+											«Главный Вычислительный Центр
+											ОАО РЖД»
+										</div>
+										<div class="career__occupation">
+										Системный Администратор
+									</div>
+										<div class="career__date">
+											2016 - 2017
+										</div>
+										<div class="career__year">
+											2016
+										</div>
+									</div>
+								</li>
 
-				</ul>
+							</ul>
+						</div>
+					</div>
 				</div>
-			</div>
+			</main>
 		</div>
 	</div>
+</div>
 	<footer class="footer">
 	<div class="container footerflex">
 		<div class="footer_info">
@@ -79,7 +107,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+
 <!-- footer -->
 
 </footer>

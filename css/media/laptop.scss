@@ -1,0 +1,50 @@
+@media screen and (max-width: 992px){
+  .container{
+    width: 730px;
+  }
+
+.aside, 
+{
+  display:block;
+  width:100%;
+}
+  .flexcontent{
+    display: block;
+  }
+  .nav__list{
+    text-align: left;
+  }
+  .nav__item
+  {
+  display:inline-block;
+    border:none;
+              }
+  .nav__item_active .nav__link {
+    border:none;
+
+  }
+  .main
+  {
+
+    padding-top:46px;
+  }
+  .myphoto{
+    width: 175px;
+    height: 175px;
+  }
+  .photo_wrapper
+  {
+    margin:0px  46px ;
+    width: 185px;
+    padding: 0;
+  }
+  .paragraphs
+  {
+    width: 437px;
+  }
+  .wrapper
+  {
+
+    height: 100%
+  }
+}

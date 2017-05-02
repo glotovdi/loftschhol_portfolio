@@ -19,8 +19,8 @@
 }
 .about_wrapper , .contact_wrapper
 {
-width: 50%;
-display: flex;
+	width: 50%;
+	display: flex;
 
 }
 .about{
@@ -30,15 +30,15 @@ display: flex;
 }
 .mini-photo
 {
-border: 1px solid #bebebe;
-border-radius: 50%;
+	border: 1px solid #bebebe;
+	border-radius: 50%;
 }
 .about__fio
 {
-margin-left:20px ;
-font-size: 18px;
-color: rgb(65, 65, 65);
-display: flex;
+	margin-left:20px ;
+	font-size: 18px;
+	color: rgb(65, 65, 65);
+	display: flex;
 
 }
 .name
@@ -47,28 +47,31 @@ display: flex;
 }
 .contact_wrapper
 {
-justify-content: flex-end;
+	justify-content: flex-end;
 }
 .contact{
-height: 23px;
+	height: 23px;
 
-display: flex;
-margin: auto 0;
+	display: flex;
+	margin: auto 0;
 
 }
 .contact_link{
 
-  font-size: 12px;
-  color: #84dbef;
-  font-weight: bold;
-  text-align: left;
-  border-bottom: 1px dashed #84dbef;
-  padding-bottom: 3px;
+	font-size: 18px;
+  color: #33c1e3;
+	text-align: left;
+	border:none;
+	border-bottom: 1px dashed #84dbef;
+	padding-bottom: 3px;
+	background-color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
 }
 .contact_link:hover{
 
 
-  color: #e85f61;
-  border-color: #e85f61;
+	color: #e85f61;
+	border-color: #e85f61;
 
 }

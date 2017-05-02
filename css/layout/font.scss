@@ -1,3 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400&subset=cyrillic');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 @import url('http://allfont.ru/allfont.css?fonts=open-sans-bold');
+
+@font-face{
+
+  font-family: 'Firasans_bold';
+  src: url('./font/FiraSans-Bold.ttf');
+
+
+}@font-face{
+
+  font-family: 'Firasans_light';
+
+  src: url('./font/FiraSans-Light.ttf');
+
+
+}@font-face{
+
+  font-family: 'FiraSans';
+
+  src: url('./font/FiraSans-Medium.ttf');
+
+
+}@font-face{
+
+  font-family: 'FiraSans_regular';
+  src: url('./font/FiraSans-Regular.ttf');
+
+
+}
+
+
+
