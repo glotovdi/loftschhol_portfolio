@@ -9,7 +9,7 @@
 </head>
 <body><div class="background">
 <div class="wrapper wrapper_auth">
-    <div class="auth bounce">
+    <div class="auth">
         <div class="auth__top">
             <div class="auth__photo"></div>
             <div class="auth__name">Дмитрий<br>Глотов</div>
@@ -20,5 +20,10 @@
     </div>
 </div>
 </div>
+<script>
+    window.onload = function () {
+        document.querySelector('.auth').classList.add('bounceIn');
+    };
+</script>
 </body>
 </html>

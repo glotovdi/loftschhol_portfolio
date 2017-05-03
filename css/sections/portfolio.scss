@@ -36,7 +36,6 @@
 
 .portfolio__pic {
   background-size: cover;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 175px;
 }
@@ -64,4 +63,9 @@
 .portfolio__desc-type {
   color: #aeaeae;
   font-size: 18px;
+}
+.port_link:hover
+{
+  color: #33c1e3;
+
 }
