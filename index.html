@@ -1,115 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
-	<meta charset="UTF-8">
-	<title>Обо мне</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Дмитрий Глотов</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
-<div class="wrapper">
-	<!-- header-->
-	<header class="header">
-		<div class="container flexheader">
-			<div class="about_wrapper">
-				<div class="about">
-					<div class="about__photo">
-						<img class="mini-photo" width="60" height="64" src="images/logo/mini-logo.jpg" alt="mini-logo">
-					</div>
-					<div class="about__fio"><div class="name">Дмитрий Глотов</div></div>
-				</div>
-			</div>
-			<div class="contact_wrapper">
-				<div class="contact">
-					<a class=contact_link href="index.html#"><span class="my_cont">Мои контакты</span></a>  <!-- // <a> используем в том случае, когда это ссылка и она куда-либо ведет; <button> используем в случаях, если это кнопка, которая вызывает какое-то действие, например, вызывает попап, модальное окно и т. д. -->
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!--section-->
-	<div class="content" >
-		<div class="container flexcontent"> <!-- // Зачем тебе класс flexcontent?) Классы с float и clear пошли из бутстрапа, где основной функционал ты собираешь с помощью классов. На самом деле, если ты не используешь бутстрап, тебе кроме твоих БЭМовских классов больше и не нужны никакие.
-		Спасибо, учту)-->
-			<aside class="aside">
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item nav__item_active">
-                            <a href="index.html" class="nav__link">
-                                <i class="fa fa-user-secret nav__link-icon"></i>
-                                <span class="nav__link-text">Обо мне</span>
-                            </a>
-                        </li>
-                        <li class="nav__item ">
-                            <a href="career.html" class="nav__link">
-                                <i class="fa fa-rocket nav__link-icon"></i>
-                                <span class="nav__link-text">Карьерный путь</span>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="portfolio.html" class="nav__link">
-                                <i class="fa fa-briefcase nav__link-icon"></i>
-                                <span class="nav__link-text">Портфолио</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-			</aside>
-			<main class="main">
-				<div class="content_wrapper">
-					<div class="photo_wrapper">
-						<div class="photo_wrapper__photo">
-							<img class="myphoto" width="220" height="220" src="images/logo/logo.jpg" alt="photo">
-						</div>
-					</div>
-					<div class="aboutme_wrapper">
-						<div class="information"> <!-- // Можно смело использовать <article> -->
-							<h1 class="information__header">Обо мне</h1>
-							<div class="paragraphs">
-								<p>Меня зовут Дмитрий Глотов и я - junior frontend разработчик с желанием дальше развиваться в данной области.</p>
-								<p>Опыт программирования с начала обучения в ВУЗе (5 лет), на таких языках программирования, как: С++/JAVA/Assembler/T-SQL.
-									Опыт веб-разработки на html/css без применения JavaScript и фреймворков более года, с использованием технологии JavaScript (+frameworks) менее полугода.
-								</p>
-								<p>Прохожу курс по веб-разработке от Loftschool, дабы структурировать и проверить свои знания, где имею определенные успехи.
-									К данному моменту имею собственно разработанный сайт с применением html+css+bootstrap. ( http://glotovdmitry.ru )
-									Также, разработал в команде со знакомым backend-разработчиком проект для личного пользования и пользования коллег по отделу на работе, с применением таких технологий как html+css+js+jQ+php+mysql.
-									Также, знаком с AJAX.</p>
-								<p>Цель: Начать карьеру junior frontend разработчика в веб-студии, где буду полезен и смогу совершенствовать свои навыки в данной сфере.</p>
-							</div>
-							<div class="resume">
-								<a class="resume_link" href="resume_hh.pdf"><i class="fa fa-download"></i>Скачать резюме</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-		</div>
-	</div>
+<body><div class="background">
+<div class="wrapper wrapper_auth">
+    <div class="auth bounce">
+        <div class="auth__top">
+            <div class="auth__photo"></div>
+            <div class="auth__name">Дмитрий<br>Глотов</div>
+        </div>
+        <div class="auth__bottom">
+            <a href="about.html" class="auth__link">Перейти на сайт</a>
+        </div>
+    </div>
 </div>
-	<footer class="footer">
-		<div class="container footerflex">
-			<div class="footer_info">
-				<div class="footer_info__copyright">
-					<div class="copy">&copy; Дизайн сайта был разработан в школе LoftSchool
-					</div>
-				</div> <!-- // Следи за стилем кода -->
-			</div>
-			<div class="footer_links">
-				<div class="footer_links__ul">
-					<ul class="ul_list">
-						<a href="www.facebook.com"><li class="fb" ></li></a> <!-- // Под конец устал от БЭМа?)) немного) -->
-						<a href="http://www.vk.com/glotovdmitry"><li class="vk" ></li></a>
-						<a  href="www.twitter.com"><li class="tw"></li></a>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-<!-- footer -->
-
-</footer>
-
+</div>
 </body>
 </html>
