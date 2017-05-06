@@ -5,6 +5,8 @@
 
   font-family: 'Firasans_bold';
   src: url('../font/FiraSans-Bold.ttf');
+  src: url('../font/FiraSans-Bold.woff') format('woff'),
+  url('../fonts/FiraSans-Bold.svg') format('svg');
 
 
 }@font-face{
@@ -28,7 +30,7 @@
 
 }@font-face{
 
-  font-family: 'fira_sansregular';
+  font-family: 'firaSans_regular';
   src: url('../fonts/firasans-regular.ttf');
   src: url('../font/FiraSans-Regular.woff') format('woff');
   font-weight: normal;
