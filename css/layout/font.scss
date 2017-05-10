@@ -12,8 +12,10 @@
 }@font-face{
 
   font-family: 'Firasans_light';
-
   src: url('../font/FiraSans-Light.ttf');
+  src: url('../font/FiraSans-Light.woff') format('woff'),
+  url('../fonts/FiraSans-Light.svg') format('svg'),;
+
 
 
 }@font-face{
