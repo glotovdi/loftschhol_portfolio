@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c6b7a3-e1d5-41fd-bd7a-b36ad78460f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/FiraSans-Light.ttf" afterPath="$PROJECT_DIR$/font/FiraSans-Light.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout/font.scss" afterPath="$PROJECT_DIR$/css/layout/font.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media/tablets.scss" afterPath="$PROJECT_DIR$/css/media/tablets.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sections/auth.scss" afterPath="$PROJECT_DIR$/css/sections/auth.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sections/career.scss" afterPath="$PROJECT_DIR$/css/sections/career.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sections/footer.scss" afterPath="$PROJECT_DIR$/css/sections/footer.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="font.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="font.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/layout/font.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/sections/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -81,7 +84,6 @@
         <option value="$PROJECT_DIR$/css/media/desktop.scss" />
         <option value="$PROJECT_DIR$/main.scss" />
         <option value="$PROJECT_DIR$/css/layout/setting.scss" />
-        <option value="$PROJECT_DIR$/css/sections/footer.scss" />
         <option value="$PROJECT_DIR$/css/media/laptop.scss" />
         <option value="$PROJECT_DIR$/css/media/phones.scss" />
         <option value="$PROJECT_DIR$/css/main.scss" />
@@ -99,6 +101,7 @@
         <option value="$PROJECT_DIR$/css/media/tablets.scss" />
         <option value="$PROJECT_DIR$/css/sections/career.scss" />
         <option value="$PROJECT_DIR$/css/layout/font.scss" />
+        <option value="$PROJECT_DIR$/css/sections/footer.scss" />
       </list>
     </option>
   </component>
@@ -375,7 +378,7 @@
       <workItem from="1493801788767" duration="7502000" />
       <workItem from="1493962990708" duration="822000" />
       <workItem from="1494061594658" duration="4659000" />
-      <workItem from="1494410668612" duration="1779000" />
+      <workItem from="1494410668612" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="scss">
       <created>1493388857234</created>
@@ -395,7 +398,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41319000" />
+    <option name="totallyTimeSpent" value="41449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sections/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="70" column="54" lean-forward="true" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -886,6 +882,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sections/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
