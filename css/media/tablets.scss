@@ -112,4 +112,14 @@
   {
     width: 0px;
   }
+  .contacts__dropdown {
+    transform: translateX(0);
+    right: 0;
+    left: auto;
+  }
+  .contacts__dropdown-triangle {
+    right: 0px;
+    transform: translateX(0);
+    left: auto;
+  }
 }
